@@ -1,0 +1,8 @@
+---
+applications:
+- name: my-python-app
+  memory: 128M
+  instances: 1
+  random-route: true
+  buildpacks:
+  - https://github.com/cloudfoundry/python-buildpack.git
